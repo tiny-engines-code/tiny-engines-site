@@ -1,6 +1,6 @@
 import React from 'react';
 import CardList from "./cards/CardList";
-import {HeroWrapper, HeroPanel, HeroTextPanel, HeroBackImage} from "../elements"
+import {HeroWrapper, HeroPanel, HeroTextPanel} from "../elements"
 import Navbar from "./Navbar";
 
 const HeroLayout = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import {NavLeft, NavRight, NavText, NavWrapper} from '../elements'
+import {NavLeft, NavRight, NavWrapper} from '../elements'
 import {
     navItem,
 } from '../styles/layout.module.css'

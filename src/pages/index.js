@@ -1,6 +1,4 @@
 import * as React from 'react'
-import PostsList from '../components/PostsList'
-import { StaticImage } from 'gatsby-plugin-image'
 import HeroLayout from "../components/HeroLayout";
 
 const IndexPage = () => {

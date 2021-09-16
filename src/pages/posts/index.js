@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {graphql, Link} from 'gatsby'
+import {graphql} from 'gatsby'
 import Navbar from "../../components/Navbar";
 import PostsList from "../../components/PostsList";
 import {HeroPanel} from "../../elements";
