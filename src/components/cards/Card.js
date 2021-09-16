@@ -1,12 +1,13 @@
 import React from "react";
-import './Card.css';
-import {Link} from "react-router-dom";
+import '../../styles/card.css';
+import {Link} from "gatsby";
 
 class Card extends React.Component {
 
     render () {
-        console.log("PROPS:", this.props.cardInfo)
         const record = this.props.cardInfo;
+        const link = (record.linkTo) ?  <Link className="button" to={record.linkTo}>More</Link> : <a className="button"  href={record.url}>More</a>
+
         return (
             <div className="flip">
                 <div className="front"
@@ -14,12 +15,9 @@ class Card extends React.Component {
                     <h4 className="text-shadow">{record.title}</h4>
                 </div>
                 <div className="back" style={{backgroundColor: `${record.backColor}`}}>
-                    <h2 style={{marginTop: "20px", marginBottom: "20px"}}>{record.backTitle}</h2>
+                    <h3 style={{marginTop: "20px", marginBottom: "20px"}}>{record.backTitle}</h3>
                     <div  style={{marginTop: "20px", marginBottom: "20px"}}>
-                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                            <Link to={record.linkTo} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                Go there ...
-                            </Link>
+                        {link}
                     </div>
                     <p  style={{marginTop: "20px", marginBottom: "20px"}}/>
                         <p>{record.backText}</p>

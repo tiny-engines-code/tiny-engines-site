@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+
+body {
+    color: #555;
+    background: #1d1e21;
+    /*background: #1C2739;*/
+    /*background: #fefefe;*/
+    text-align: center;
+    font-family: "Roboto Mono", sans-serif;
+    padding: 1em;
+}

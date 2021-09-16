@@ -1,0 +1,51 @@
+.body {
+    background-color: #1d1e21;
+}
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.heading {
+    color: rebeccapurple;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-link-item {
+    padding-right: 2rem;
+}
+.nav-link-text {
+    color: black;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
+.nav-item {
+    padding-left: 2rem;
+    text-decoration: none;
+    /*color: #8b4ca1;*/
+    color: lightgrey;
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-item:hover {
+    color: mediumpurple;
+}
+
+/*.grey-line {*/
+/*    line-height: 1px;*/
+/*    color: dimgray;*/
+/*}*/
