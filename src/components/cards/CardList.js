@@ -12,7 +12,7 @@ class CardList extends React.Component {
             {title: "work", topic: "history/history3Crop.png",  linkTo: "/history" , backColor: "#1d1e21", backTitle:"four legs good, two legs ...better", backText: "boilerplate recital mixed with occasional rebellion"},
             {title: "explore", topic: "spaceman.png",  linkTo: "/explore" , backColor: "#1d1e21", backTitle:"i've seen things you people wouldn’t believe", backText: "attack ships on fire off the shoulder of orion, c-beams glittering in the dark near the tannhäuser gate"},
             {title: "code", topic: "madscientist3.png",  url: "https://github.com/tiny-engines-code" , backColor: "#1d1e21", backTitle:"welcome to the lab", backText: "public github site for experiments, demos, and walk-through"},
-            {title: "muse", topic: "clown.jpg", linkTo:"/muse", backColor: "#1d1e21",  backTitle:"music", backText: "personal explorations and favorites"}
+            {title: "muse", topic: "clown.jpg", linkTo:"/quotes", backColor: "#1d1e21",  backTitle:"music", backText: "personal explorations and favorites"}
         ]
     }
 

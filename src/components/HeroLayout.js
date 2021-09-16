@@ -16,7 +16,7 @@ const HeroLayout = () => {
 
                 <HeroTextPanel>Hi, I'm Chris Lomeli</HeroTextPanel>
                 <HeroTextPanel>This is my collection of notes, works in progress, and reflections -- mostly from a career in software engineering</HeroTextPanel>
-                <HeroTextPanel>As the writer says -- welcome to the monkey house</HeroTextPanel>
+                <HeroTextPanel>Welcome to a foreign fireside</HeroTextPanel>
 
             </HeroWrapper>
             <CardList/>

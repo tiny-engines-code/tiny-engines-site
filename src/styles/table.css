@@ -1,0 +1,26 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 50%;
+}
+
+td,  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: darkslategrey;
+    text-align: left;
+}
+
+tr{background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: darkgrey;
+    color: darkslategray;
+}
