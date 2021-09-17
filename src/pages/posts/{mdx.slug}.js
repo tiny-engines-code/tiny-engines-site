@@ -3,8 +3,7 @@ import {graphql} from 'gatsby'
 import {MDXRenderer} from 'gatsby-plugin-mdx'
 import {GatsbyImage, getImage} from 'gatsby-plugin-image'
 import '../../styles/image.css'
-import {ContentTitle, FeatureImageWrapper, HeroSpacerPanel} from "../../elements";
-import {PostWrapper} from "../../elements";
+import {ContentTitle, FeatureImageWrapper, PostWrapper} from "../../elements";
 import {ContentLayout} from "../../components/ContentLayout";
 // ...
 

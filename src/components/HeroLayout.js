@@ -1,5 +1,5 @@
 import React from 'react';
-import CardList from "./cards/CardList";
+import CardList from "./CardList";
 import {HeroWrapper, HeroPanel, HeroTextPanel} from "../elements"
 import Navbar from "./Navbar";
 

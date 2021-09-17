@@ -12,9 +12,10 @@ export default function Navbar() {
                 <NavLeft>chris lomeli</NavLeft>
                 <NavRight>
                     <Link className={navItem} to="/">home</Link>
-                    <a className={navItem} href="https://chris-lomeli.gitbook.io/tiny-engines/">docs</a>
-                    <Link className={navItem}  to="/posts">posts</Link>
-                    <Link className={navItem}  to="/about">about</Link>
+                    <a className={navItem} href="https://chris-lomeli.gitbook.io/tiny-engines/">logbooks</a>
+                    <Link className={navItem}  to="/posts">rants</Link>
+                    <Link className={navItem}  to="/history">work</Link>
+                    <a className={navItem} href="https://github.com/tiny-engines-code">code</a>
                 </NavRight>
             </NavWrapper>
             <hr style={{border: '1px solid #202124'}}/>

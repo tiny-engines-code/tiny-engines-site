@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---cache-dev-404-page-js",
     "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404.html"},{"path":"/404/"},{"path":"/about/"},{"path":"/"},{"path":"/quotes/"},{"path":"/posts/"},{"path":"/posts/tiny-rants/"},{"path":"/posts/my-first-post/"},{"path":"/posts/tiny-anything/"},{"path":"/posts/tiny-bites/"}]}},"pageContext":{}},
+    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404.html"},{"path":"/404/"},{"path":"/explore/"},{"path":"/favorites/"},{"path":"/history/"},{"path":"/"},{"path":"/posts/"},{"path":"/posts/tiny-rants/"},{"path":"/posts/tiny-bites/"},{"path":"/posts/tiny-anything/"},{"path":"/posts/my-first-post/"}]}},"pageContext":{}},
     "staticQueryHashes": []}

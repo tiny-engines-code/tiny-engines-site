@@ -21,8 +21,3 @@ export const NavLeft = styled.nav`
   grid-row-start: 1;
   font-size: 24px;
 `
-
-export const NavText = styled.nav`
-    padding-right: 2rem;
-
-`

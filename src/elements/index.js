@@ -1,7 +1,5 @@
 export * from "./HeroElements"
 export * from "./NavElements"
 export * from "./CardElements"
-export * from "./PostListElements"
 export * from "./ContainerElements"
-export * from "./ImageElements"
 export * from "./PostElements"

@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
+
 export const PostWrapper = styled.main`
-  grid-column: 4 / span 10;
+  grid-column: 3 / span 12;
   grid-row: 3 / span 5;
   background-color: hsl(0,0%,99%);
   padding: 3rem 6rem;

@@ -1,16 +1,14 @@
 import React from "react"
-import {ContainerNavLeft, ContainerNavRight, ContainerWrapper, ContentWrapper} from "../elements"
-import {Link} from "gatsby";
-import {navItem} from "../styles/layout.module.css";
+import {GridContainer} from "../elements"
 import Navbar from "./Navbar";
 
 export const ContentLayout = ({ children }) => {
   return (
       <div>
           <Navbar />
-          <ContainerWrapper>
-              {children}
-          </ContainerWrapper>
+          <GridContainer>
+                 {children}
+          </GridContainer>
           {/*<Footer />*/}
       </div>
   )

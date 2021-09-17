@@ -21,7 +21,7 @@ export const HeroPanel = styled.div`
   justify-content: center;
   font: bold 40px "Open Sans", sans-serif;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 120px;
   line-height: 3;
   height: 200px;
   color: darkgrey;
@@ -30,20 +30,9 @@ export const HeroPanel = styled.div`
 export const HeroTextPanel = styled.div`
   justify-content: center;
   font: 20px "Microsoft Sans Serif", "Roboto Thin";
-  /*font: italic 24px "Open Sans", sans-serif;*/
   text-align: center;
   height: 35px;
-  color: lightgray;
+  color: #b560d6;
   //color: #555533;
 `
 
-
-export const HeroSpacerPanel = styled.div`
-  justify-content: center;
-  font: 20px "Microsoft Sans Serif", "Roboto Thin";
-  /*font: italic 24px "Open Sans", sans-serif;*/
-  text-align: center;
-  height: 50px;
-  color: lightgray;
-  //color: #555533;
-`
