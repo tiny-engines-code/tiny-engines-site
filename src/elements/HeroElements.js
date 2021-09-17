@@ -36,3 +36,14 @@ export const HeroTextPanel = styled.div`
   color: lightgray;
   //color: #555533;
 `
+
+
+export const HeroSpacerPanel = styled.div`
+  justify-content: center;
+  font: 20px "Microsoft Sans Serif", "Roboto Thin";
+  /*font: italic 24px "Open Sans", sans-serif;*/
+  text-align: center;
+  height: 50px;
+  color: lightgray;
+  //color: #555533;
+`

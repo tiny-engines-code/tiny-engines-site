@@ -6,6 +6,8 @@ export const PostWrapper = styled.main`
   background-color: hsl(0,0%,99%);
   padding: 3rem 6rem;
   box-shadow: 0px 5px 20px rgba(30, 30, 31, 0.05);
+  font-size: 14px;
+  line-height: 1rem;
   z-index: 10;
 
   h1,
@@ -105,6 +107,7 @@ export const PostWrapper = styled.main`
 
   li {
     margin: 0.25rem 0;
+    line-height: 1.5rem;
   }
 
   code {

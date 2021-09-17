@@ -29,10 +29,10 @@
 .link-col {
     text-align: left;
     width: 25%;
+    padding: 20px;
     background: #202226 linear-gradient(to bottom right, #101010, #3c3c3e);
     border-radius: 5px;
     border: solid #1D1E21 1px;
-
 }
 
 .link-text {

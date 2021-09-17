@@ -2,14 +2,17 @@ import * as React from 'react'
 import {graphql, Link} from 'gatsby'
 import {Container} from "./Container";
 import * as styles from '../styles/posttable.module.css'
+import {ContentLayout} from "./ContentLayout";
+import {ContentWrapper} from "../elements";
 
 const PostsList = (props) => {
 
     console.log("POSTS", props)
     return (
-        <Container>
-            <table>
-                <tbody>
+        <ContentLayout>
+            <ContentWrapper>
+                <table>
+                    <tbody>
                     {props.posts.map((node) => (
                         <tr key={node.slug} className={styles.postRow}>
                             <td className={styles.linkCol}>
@@ -23,10 +26,12 @@ const PostsList = (props) => {
 
                     ))}
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </ContentWrapper>
 
-        </Container>
+
+        </ContentLayout>
 
     )
 }

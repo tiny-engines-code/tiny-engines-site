@@ -1,13 +1,11 @@
 import * as React from 'react'
-import {graphql, Link} from 'gatsby'
+import {graphql} from 'gatsby'
 import {MDXRenderer} from 'gatsby-plugin-mdx'
 import {GatsbyImage, getImage} from 'gatsby-plugin-image'
-import {Container} from "../../components/Container";
 import '../../styles/image.css'
-import {ContainerNavLeft, ContainerNavRight, ContainerWrapper, FeatureImageWrapper, HeroPanel} from "../../elements";
-import {PostWrapper} from "../../elements/PostElements";
-import Navbar from "../../components/Navbar";
-import {navItem} from "../../styles/layout.module.css";
+import {ContentTitle, FeatureImageWrapper, HeroSpacerPanel} from "../../elements";
+import {PostWrapper} from "../../elements";
+import {ContentLayout} from "../../components/ContentLayout";
 // ...
 
 
@@ -15,15 +13,9 @@ const BlogPost = ({data}) => {
     const image = getImage(data.mdx.frontmatter.hero_image)
 
     return (
-        <ContainerWrapper>
-            <ContainerNavLeft>chris lomeli</ContainerNavLeft>
-            <ContainerNavRight>
-                <Link className={navItem} to="/">home</Link>
-                <a className={navItem} href="https://chris-lomeli.gitbook.io/tiny-engines/">docs</a>
-                <Link className={navItem}  to="/posts">posts</Link>
-                <Link className={navItem}  to="/about">about</Link>
-            </ContainerNavRight>
 
+        <ContentLayout>
+            <ContentTitle>{data.mdx.frontmatter.title}</ContentTitle>
             <FeatureImageWrapper>
                 <GatsbyImage className="postimage"
                              image={image}
@@ -33,7 +25,8 @@ const BlogPost = ({data}) => {
             <PostWrapper>
                 <MDXRenderer>{data.mdx.body}</MDXRenderer>
             </PostWrapper>
-        </ContainerWrapper>
+        </ContentLayout>
+
     )
 }
 

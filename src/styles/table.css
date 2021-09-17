@@ -7,13 +7,14 @@ table {
 }
 
 td,  th {
-    border: 1px solid #ddd;
+    border: 1px solid #171616;
     padding: 8px;
-    color: darkslategrey;
+    color: #5c989a;
+    font-size: 12px;
     text-align: left;
 }
 
-tr{background-color: #f2f2f2;}
+tr{background-color: rgba(0, 2, 2, 0.61);}
 
 tr:hover {background-color: #ddd;}
 
@@ -21,6 +22,7 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: darkgrey;
-    color: darkslategray;
+    background-color: rgb(29,30,33);
+    font-size: 14px;
+    color: #ffffff;
 }
