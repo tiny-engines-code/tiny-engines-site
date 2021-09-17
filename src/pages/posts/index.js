@@ -9,8 +9,8 @@ const Posts = ({data}) => {
     console.log("DATA", data)
     return (
         <div>
-            <Navbar/>
-            <HeroPanel>{data.site.siteMetadata.title}</HeroPanel>
+            {/*<Navbar/>*/}
+            {/*<HeroPanel>{data.site.siteMetadata.title}</HeroPanel>*/}
             <PostsList posts={data.allMdx.nodes}/>
         </div>
     )

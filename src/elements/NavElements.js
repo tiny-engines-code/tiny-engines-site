@@ -16,8 +16,6 @@ export const NavRight = styled.nav`
   font-size: 16px;
 
 `
-
-
 export const NavLeft = styled.nav`
   grid-column-start: 1;
   grid-row-start: 1;

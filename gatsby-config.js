@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "tiny engines and more",
+    title: "tiny engines posts",
   },
   plugins: [
     "gatsby-plugin-image",

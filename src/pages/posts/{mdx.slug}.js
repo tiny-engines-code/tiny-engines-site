@@ -1,30 +1,39 @@
 import * as React from 'react'
-import {graphql} from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import {MDXRenderer} from 'gatsby-plugin-mdx'
-import {GatsbyImage, getImage} from 'gatsby-plugin-image' // highlight-line
-
+import {GatsbyImage, getImage} from 'gatsby-plugin-image'
+import {Container} from "../../components/Container";
+import '../../styles/image.css'
+import {ContainerNavLeft, ContainerNavRight, ContainerWrapper, FeatureImageWrapper, HeroPanel} from "../../elements";
+import {PostWrapper} from "../../elements/PostElements";
+import Navbar from "../../components/Navbar";
+import {navItem} from "../../styles/layout.module.css";
 // ...
+
 
 const BlogPost = ({data}) => {
     const image = getImage(data.mdx.frontmatter.hero_image)
 
     return (
-        <article pageTitle={data.mdx.frontmatter.title}>
-            <p>{data.mdx.frontmatter.date}</p>
-            <GatsbyImage
-                image={image}
-                alt={data.mdx.frontmatter.hero_image_alt}
-            />
-            {/*<p>*/}
-            {/*    Photo Credit:{" "}*/}
-            {/*    <a href={data.mdx.frontmatter.hero_image_credit_link}>*/}
-            {/*        {data.mdx.frontmatter.hero_image_credit_text}*/}
-            {/*    </a>*/}
-            {/*</p>*/}
-            <MDXRenderer>
-                {data.mdx.body}
-            </MDXRenderer>
-        </article>
+        <ContainerWrapper>
+            <ContainerNavLeft>chris lomeli</ContainerNavLeft>
+            <ContainerNavRight>
+                <Link className={navItem} to="/">home</Link>
+                <a className={navItem} href="https://chris-lomeli.gitbook.io/tiny-engines/">docs</a>
+                <Link className={navItem}  to="/posts">posts</Link>
+                <Link className={navItem}  to="/about">about</Link>
+            </ContainerNavRight>
+
+            <FeatureImageWrapper>
+                <GatsbyImage className="postimage"
+                             image={image}
+                             alt={data.mdx.frontmatter.hero_image_alt}
+                />
+            </FeatureImageWrapper>
+            <PostWrapper>
+                <MDXRenderer>{data.mdx.body}</MDXRenderer>
+            </PostWrapper>
+        </ContainerWrapper>
     )
 }
 
