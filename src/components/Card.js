@@ -11,7 +11,7 @@ class Card extends React.Component {
         return (
             <div className="flip">
                 <div className="front"
-                     style={{backgroundImage: `url(assets/img/${record.topic}?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)`}}>
+                     style={{backgroundImage: `url(${record.topic}?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)`}}>
                     <h4 className="text-shadow">{record.title}</h4>
                 </div>
                 <div className="back" style={{backgroundColor: `${record.backColor}`}}>

@@ -12,6 +12,7 @@ export const GridContainer = styled.div`
 export const ContentWrapper = styled.main`
   grid-column: 4 / span 12;
   padding: 3rem 6rem;
+  color: lightgray;
   box-shadow: 0px 5px 20px rgba(30, 30, 31, 0.05);
   z-index: 10;
 `
@@ -25,7 +26,7 @@ export const WideContentWrapper = styled.main`
 
 export const ContentTitle = styled.div`
   grid-column: 3 / span 12;
-//   grid-row: 1 / 4;
+  color: green;
   overflow: hidden;
   position: relative;
   justify-content: center;
@@ -35,7 +36,6 @@ export const ContentTitle = styled.div`
   /*font: italic 24px "Open Sans", sans-serif;*/
   padding: 50px 0;
   text-align: center;
-
   color: lightgray;
 `
 

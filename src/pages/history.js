@@ -8,7 +8,11 @@ const WorkHistory = () => {
         <ContentLayout>
             <ContentTitle>Work history</ContentTitle>
             <ContentWrapper>
-             <p>Sadly, this is still in the inception phase</p>
+             <p>Regrettably, this is still in the inception phase, but here's my CV</p>
+
+            <embed src="Chris.Lomeli.2021.CV.pdf" width="800px" height="2100px" />
+
+
            </ContentWrapper>
         </ContentLayout>
     )
