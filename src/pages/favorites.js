@@ -3,7 +3,6 @@ import '../styles/table.css'
 import {ContentLayout} from "../components/ContentLayout";
 import {ContentWrapper} from "../elements";
 import {ContentTitle} from "../elements";
-import {GatsbyImage, StaticImage, getImage} from 'gatsby-plugin-image'
 
 const Quotes = () => {
         return (

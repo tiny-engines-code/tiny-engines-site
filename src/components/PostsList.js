@@ -1,9 +1,8 @@
 import * as React from 'react'
-import {graphql, Link} from 'gatsby'
+import {Link} from 'gatsby'
 import * as styles from '../styles/posttable.module.css'
 import {ContentLayout} from "./ContentLayout";
 import {WideContentWrapper} from "../elements";
-import {ContentTitle} from "../elements";
 
 const PostsList = (props) => {
 
@@ -36,26 +35,5 @@ const PostsList = (props) => {
 
     )
 }
-
-
-export const query = graphql`
-query {
-  site {
-    siteMetadata {
-      title
-    }
-  }
-  allMdx(sort: {order: DESC, fields: frontmatter___date}) {
-    nodes {
-      frontmatter {
-        date(formatString: "MMMM D, YYYY")
-        title
-      }
-      id
-      slug
-    }
-  }
-}
-`
 
 export default PostsList

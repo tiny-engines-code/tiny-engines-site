@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "tiny engines posts",
+    title: `Chris Lomeli Persona Website`,
+    description: `Blah`,
+    author: `Chris Lomeli`,
   },
   plugins: [
     "gatsby-plugin-image",
