@@ -4,14 +4,14 @@ import {ContentWrapper} from "../elements";
 import {ContentTitle} from "../elements";
 
 const WorkHistory = () => {
+
     return (
         <ContentLayout>
             <ContentTitle>Work history</ContentTitle>
             <ContentWrapper>
              <p>Regrettably, this is still in the inception phase, but here's my CV</p>
 
-            <embed src="Chris.Lomeli.2021.CV.pdf" width="800px" height="2100px" />
-
+              <a href={`Chris.Lomeli.2021.CV.pdf`} download>Chris Lomeli CV</a>
 
            </ContentWrapper>
         </ContentLayout>

@@ -18,7 +18,7 @@ const Quotes = () => {
                             <tr><td>George Orwell</td><td>Four legs good, two legs ..better</td><td>Animal Farm</td></tr>
                             <tr><td>Rutger Hauer</td><td>I've seen things you people would not believe</td><td>BladeRunner</td></tr>
                             <tr><td>Frank Herbert</td><td>It was mostly sweet, and you where the sweetest of all</td><td>Dune Messiah</td></tr>
-                            <tr><td>Seamus Heaney</td><td>I credit poetry for making this space-walk possible</td><td>Dune Messiah</td></tr>
+                            <tr><td>Seamus Heaney</td><td>I credit poetry for making this space-walk possible</td><td>Nobel Lecture</td></tr>
                             <tr><td>Pablo Neruda</td><td>Sometimes i get up at dawn, and even my soul is wet</td><td>Twenty Love Poems and a Song of Despair</td></tr>
                         </table>
 
