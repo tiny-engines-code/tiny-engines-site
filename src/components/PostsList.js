@@ -6,11 +6,10 @@ import {WideContentWrapper} from "../elements";
 
 const PostsList = (props) => {
 
-    console.log("POSTS", props)
     return (
         <ContentLayout>
             <WideContentWrapper>
-            <div style={{fontSize: '24px', color: 'darkgrey'}}>rants, jottings and kernels</div>
+            <div style={{fontSize: '16px', color: '#B560D6'}}>I'm not entirely sure what I want to do with this section, other than having some fun learning how to create a React mdx blog. I'm not really interested in publishing.  And I don't want to recycle a lot of old articles.  So at least for now I'll begin to use it to explain who I am and my 'true-north</div>
                 <table>
                     <tbody>
                         {props.posts.map((node) => (
@@ -21,7 +20,7 @@ const PostsList = (props) => {
                                     </Link>
                                 </td>
                                 <td className={styles.dateCol}>{node.frontmatter.date}</td>
-                                <td className={styles.postCol}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+                                <td className={styles.postCol}>My take on the Shingo model of organizational excellence</td>
                             </tr>
 
                         ))}

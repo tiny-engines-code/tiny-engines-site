@@ -67,7 +67,7 @@ export const PostWrapper = styled.main`
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.875rem;
     font-weight: 400;
     color: hsl(227,2%,26%);
