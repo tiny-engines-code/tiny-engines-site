@@ -10,6 +10,7 @@
     background-color: #1D1E21;
     padding: 8px;
     color: darkgrey;
+    font-size: 14px;
     font-style: italic;
     text-align: left;
     width: 300px;
@@ -19,6 +20,7 @@
 
 .date-col {
     background-color: #1D1E21;
+    font-size: 14px;
     padding: 8px;
     color: #409699;
     text-align: right;
@@ -29,6 +31,7 @@
 .link-col {
     text-align: left;
     width: 25%;
+    font-size: 14px;
     padding: 20px;
     background: #202226 linear-gradient(to bottom right, #101010, #3c3c3e);
     border-radius: 5px;
@@ -37,6 +40,7 @@
 
 .link-text {
     text-decoration: none;
+    font-size: 14px;
     color: #ffffff;
 }
 
