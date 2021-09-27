@@ -9,7 +9,7 @@ const PostsList = (props) => {
     return (
         <ContentLayout>
             <WideContentWrapper>
-            <div style={{fontSize: '16px', color: '#B560D6'}}>I'm not entirely sure what I want to do with this section, other than having some fun learning how to create a React mdx blog. I'm not really interested in publishing.  And I don't want to recycle a lot of old articles.  So at least for now I'll begin to use it to explain who I am and my 'true-north</div>
+            <div style={{paddingTop: '50px', fontSize: '20px', color: '#545433'}}>I'm not entirely sure what I want to do with this section, other than having some fun with React. I'm not really interested in publishing.  I'm not going to recycle old articles.  So at least for now I'll begin to use it to explain who I am and my 'true-north</div>
                 <table>
                     <tbody>
                         {props.posts.map((node) => (
