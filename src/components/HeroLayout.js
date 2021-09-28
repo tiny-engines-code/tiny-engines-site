@@ -15,8 +15,9 @@ const HeroLayout = () => {
                 <HeroPanel>tiny engines</HeroPanel>
 
                 <HeroTextPanel>Hi, I'm Chris Lomeli</HeroTextPanel>
-                <HeroTextPanel>This is my collection of notes, works in progress, and reflections -- mostly from a career in software engineering</HeroTextPanel>
-                <HeroTextPanel>Welcome to a foreign fireside</HeroTextPanel>
+                <HeroTextPanel>This site began as a personal development project</HeroTextPanel>
+                <HeroTextPanel>and is (slowly) evolving into a private collection of documentation, and works in progress</HeroTextPanel>
+                <HeroTextPanel>~ Welcome to a foreign fireside ~</HeroTextPanel>
 
             </HeroWrapper>
             <CardList/>

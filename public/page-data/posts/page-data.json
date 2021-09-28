@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-posts-index-js",
     "path": "/posts/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Chris Lomeli Persona Website"}},"allMdx":{"nodes":[{"frontmatter":{"date":"July 23, 2021","title":"Operational Excellence"},"id":"89151af1-b1e9-5e57-ae1e-ab77ebbb8f72","slug":"shingo-intro/"}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Chris Lomeli Persona Website"}},"allMdx":{"nodes":[{"frontmatter":{"date":"July 23, 2021","title":"Shingo Organizational Excellence"},"id":"89151af1-b1e9-5e57-ae1e-ab77ebbb8f72","slug":"shingo-intro/"}]}},"pageContext":{}},
     "staticQueryHashes": []}
