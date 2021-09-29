@@ -2,6 +2,8 @@ import React from 'react';
 import CardList from "./CardList";
 import {HeroWrapper, HeroPanel, HeroTextPanel} from "../elements"
 import Navbar from "./Navbar";
+import { Helmet } from "react-helmet"
+import favicon from '../images/favicon.png'
 
 const HeroLayout = () => {
     return (
@@ -21,6 +23,9 @@ const HeroLayout = () => {
 
             </HeroWrapper>
             <CardList/>
+          <Helmet>
+            <link rel="icon" href={favicon} />
+          </Helmet>
         </div>
 
 
