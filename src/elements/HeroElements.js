@@ -33,7 +33,8 @@ export const HeroTextPanel = styled.div`
   text-align: center;
   height: 35px;
   //color: #956ca8;
-  color: #555533;
+//  color: #555533;
+  color: dodgerblue;
   //color: darkgrey;
 `
 
