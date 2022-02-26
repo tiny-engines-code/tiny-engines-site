@@ -13,7 +13,7 @@ export default function Navbar() {
                 <NavRight>
                     <Link className={navItem} to="/">home</Link>
                     <a className={navItem} href="https://chris-lomeli.gitbook.io/tiny-engines/">logbooks</a>
-                    <Link className={navItem}  to="/posts">rants</Link>
+                    {/*<Link className={navItem}  to="/posts">rants</Link>*/}
                     <Link className={navItem}  to="/history">work</Link>
                     <a className={navItem} href="https://github.com/tiny-engines-code">code</a>
                 </NavRight>
