@@ -18,8 +18,8 @@ const HeroLayout = () => {
 
                 <HeroTextPanel>Hi, I'm Chris Lomeli</HeroTextPanel>
                 <HeroTextPanel style={{color: '#3276ba'}}>This site began as a personal development project</HeroTextPanel>
-                <HeroTextPanel style={{color: '#235587'}}>evolving to a small collection of works in progress(tiny engines)</HeroTextPanel>
-                <HeroTextPanel style={{color: 'mediumpurple'}}>~ Welcome to a foreign fireside ~</HeroTextPanel>
+                <HeroTextPanel style={{color: '#3276ba'}}>evolving to a small collection of works in progress(tiny engines)</HeroTextPanel>
+                {/*<HeroTextPanel style={{color: 'mediumpurple'}}>~ Welcome to a foreign fireside ~</HeroTextPanel>*/}
 
             </HeroWrapper>
             <CardList/>

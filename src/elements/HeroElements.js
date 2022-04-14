@@ -4,7 +4,7 @@ export const HeroWrapper = styled.div`
   position: relative;
   justify-content: center;
   text-align: center;
-  min-height: 40vh;
+  min-height: 25vh;
   color: black;
 `
 export const HeroBackImage = styled.div`
