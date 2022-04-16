@@ -12,6 +12,7 @@ export const NavWrapper = styled.nav`
 export const NavRight = styled.nav`
   grid-column-start: 3;
   grid-row-start: 1;
+  color: #101010;
   //padding-top: 12px;
   font-size: 16px;
 

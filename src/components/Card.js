@@ -6,7 +6,7 @@ class Card extends React.Component {
 
     render () {
         const record = this.props.cardInfo;
-        const link = (record.linkTo) ?  <Link className="button" to={record.linkTo}>More</Link> : <a className="button"  href={record.url}>More</a>
+        const link = (record.linkTo) ?  <Link className="button" to={record.linkTo}>Go</Link> : <a className="button"  href={record.url}>Go</a>
 
         return (
             <div className="flip">
