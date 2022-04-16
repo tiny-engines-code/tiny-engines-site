@@ -67,9 +67,9 @@ h1 {
 .flip {
     position: relative;
     display: inline-block;
-    margin-right: 2px;
+    margin-right: 1px;
     margin-bottom: 1em;
-    width: 275px;
+    width: 375px;
 }
 .flip > .front,
 .flip > .back {
